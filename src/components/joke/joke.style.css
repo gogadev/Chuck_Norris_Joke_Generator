@@ -1,0 +1,51 @@
+.joke {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1.3rem auto;
+  text-align: center;
+  width: 90vw;
+}
+
+.list {
+  width: 90vw;
+  margin: 1rem auto;
+  border-top: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-bottom: 4px solid rgba(218, 215, 215, 0.74);
+  border-radius: 20px;
+}
+
+.loading-img {
+  width: 10%;
+}
+
+#checkbox {
+  margin: 0.2rem 0.5rem;
+  border: 1px solid lightgrey;
+  padding: 0 1rem;
+  transform: skew(-10deg);
+}
+
+#app-bar {
+  background: rgba(230, 228, 228, 0.712);
+  border-radius: 8px;
+}
+
+#home-tab {
+  border-bottom: 1px solid grey;
+}
+
+@media only screen and (max-width: 800px) {
+  .joke-img {
+    width: 60%;
+  }
+  #app-bar {
+    width: 90%;
+  }
+  .list {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}

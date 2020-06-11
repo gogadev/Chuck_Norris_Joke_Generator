@@ -1,0 +1,56 @@
+.form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 1.3rem;
+  transform: skew(-30deg);
+  margin: 0.5rem auto;
+  outline: lightgrey;
+  width: 50vw;
+  border: none;
+  border: 1px solid rgba(141, 141, 141, 0.541);
+  border-radius: 10px;
+  color: grey;
+}
+
+.search {
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.search-img {
+  width: 10%;
+}
+
+.btn {
+  width: 10vw;
+  padding: 0.1rem;
+  letter-spacing: 3px;
+  outline: lightgrey;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  transition: all 1.5s ease;
+  transform: skew(-30deg);
+
+}
+
+.btn:hover {
+  transform: scaleX(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    width: 30vw;
+  }
+}

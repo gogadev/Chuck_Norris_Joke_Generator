@@ -1,0 +1,29 @@
+header {
+  width: 90vw;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 0rem auto;
+  text-align: center;
+}
+
+.title {
+  width: 90vw;
+  background: whitesmoke;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+}
+
+.subtitle {
+  letter-spacing: 5px;
+  margin-top: 1rem;
+}
+
+.img {
+  width: 70%;
+}
+
+@media only screen and (max-width: 800px) {
+  .title img {
+    width: 60%;
+  }
+}
